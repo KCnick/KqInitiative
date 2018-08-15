@@ -16,10 +16,10 @@
  
 body {
   background-color: #E5E5E5;
-  color: #3C4858;
+  color: #ffffff;
 }
 body.inverse {
-  background: #333333;
+  background: #ffffff;
 }
 body.inverse, body.inverse .form-control {
   color: #ffffff;
@@ -275,7 +275,7 @@ h2.title {
 .wizard-card .picture {
   width: 106px;
   height: 106px;
-  background-color: #999999;
+  background-color: #286f4e;
   border: 4px solid #CCCCCC;
   color: #FFFFFF;
   border-radius: 50%;
