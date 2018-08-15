@@ -16,6 +16,7 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { RouterModule } from '@angular/router';
 import { AddInitiativeComponent } from './components/add-initiative/add-initiative.component';
 import { AngularFireModule } from 'angularfire2';
+import { InitiativeComponent } from './components/initiative/initiative.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AngularFireModule } from 'angularfire2';
     NavComponent,
     SideNavComponent,
     AddInitiativeComponent,
+    InitiativeComponent,
    
   ],
   imports: [

@@ -5,6 +5,7 @@ import { NavComponent } from './app/components/nav/nav.component';
 import { SideNavComponent } from './app/components/side-nav/side-nav.component';
 import { FooterComponent } from './app/components/footer/footer.component';
 import { AddInitiativeComponent } from './app/components/add-initiative/add-initiative.component';
+import { InitiativeComponent } from './app/components/initiative/initiative.component';
 
 
 
@@ -14,5 +15,6 @@ export const appRoutes: Routes = [
     {path:'nav', component:NavComponent},
     {path:'side-nav', component:SideNavComponent},
     {path:'footer', component:FooterComponent},
-    {path:'add-initiative', component:AddInitiativeComponent}
+    {path:'add-initiative', component:AddInitiativeComponent},
+    {path:'initiative', component:InitiativeComponent}
 ]
